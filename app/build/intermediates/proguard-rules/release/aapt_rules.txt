@@ -1,0 +1,115 @@
+# view AndroidManifest.xml #generated:237
+-keep class cn.domob.android.ads.DomobActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class cn.waps.OffersWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.admogo.UpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.adsmogo.adview.AdsMogoInterstitialActivity { <init>(...); }
+
+# view res/layout/album_list_view.xml #generated:19
+# view res/layout/layout_home.xml #generated:163
+# view res/layout/layout_local.xml #generated:50
+-keep class com.adsmogo.adview.AdsMogoLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.adsmogo.adview.AdsMogoWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.adsmogo.controller.service.CountService { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.adsmogo.controller.service.UpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.adsmogo.mriad.view.AdsMogoActionHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.adsmogo.splash.AdsMogoSplashWebView { <init>(...); }
+
+# view res/layout/welcome.xml #generated:31
+-keep class com.android.beauty360.LoadingView { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.android.beauty360.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.android.beauty360.point.PayMainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.android.main.AlbumList { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.android.main.MainActivity { <init>(...); }
+
+# view res/layout/layout_home.xml #generated:171
+-keep class com.android.main.PullDownListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.android.main.TabHomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.android.main.TabLocalActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.android.main.TabMyCenterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.android.picview.LocalPicViewer { <init>(...); }
+
+# view res/layout/pic_viewer.xml #generated:8
+-keep class com.android.picview.MyImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.android.picview.PicViewer { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.android.update.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.baidu.mobads.AppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.baidu.mobads.appoffers.OffersActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.mt.airad.MultiAD { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.payeco.android.plugin.PayecoOrderDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.payeco.android.plugin.PayecoPayResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.payeco.android.plugin.PayecoPluginLoadingActivity { <init>(...); }
+
+# view res/layout/payeco_plugin_order_detail.xml #generated:40
+# view res/layout/payeco_plugin_order_detail.xml #generated:46
+# view res/layout/payeco_plugin_order_detail.xml #generated:53
+# view res/layout/payeco_plugin_pay_result.xml #generated:37
+# view res/layout/payeco_plugin_pay_result.xml #generated:43
+# view res/layout/payeco_plugin_pay_result.xml #generated:50
+# view res/layout/payeco_plugin_risk_control.xml #generated:42
+# view res/layout/payeco_plugin_risk_control.xml #generated:48
+# view res/layout/payeco_plugin_risk_control.xml #generated:55
+-keep class com.payeco.android.plugin.PayecoPluginPayStepLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.payeco.android.plugin.PayecoRiskControlActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.payeco.android.plugin.PayecoWebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:260
+-keep class com.suizong.mobplate.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.wanpu.pay.PayView { <init>(...); }
+

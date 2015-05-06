@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout android:layout_height="fill_parent" android:background="@color/cream"
+	android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@+id/welcome_image" android:layout_height="fill_parent"
+		android:layout_width="fill_parent"> 
+	</ImageView>
+</LinearLayout> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/version_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/dimgray"
+        android:textSize="15sp" >
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/version_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app_icon" />
+
+    <com.android.beauty360.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"        
+        android:layout_marginTop="50dip"
+        android:layout_below="@+id/version_name"
+        android:src="@drawable/loader_frame_1" >
+    </com.android.beauty360.LoadingView>
+
+</RelativeLayout>

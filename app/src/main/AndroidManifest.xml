@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.android.beauty360" android:versionCode="16"
+	android:versionName="1.6">
+	<uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="15" />
+
+<!-- 	<uses-sdk android:minSdkVersion="7" /> -->
+<!--     <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" android:theme="@android:style/Theme.Black.NoTitleBar">
+        <activity
+            android:name="com.and.netease.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.and.netease.TabNewsActivity"></activity>
+        <activity android:name="com.and.netease.TabTopicActivity"></activity>
+        <activity android:name="com.and.netease.TabPicActivity"></activity>
+        <activity android:name="com.and.netease.TabFollowActivity"></activity>
+        <activity android:name="com.and.netease.TabVoteActivity"></activity>
+    </application> -->
+	
+ 	<application android:icon="@drawable/app_icon"
+		android:label="@string/app_name">
+ 		<activity android:name=".WelcomeActivity" android:label="@string/app_name"
+			android:configChanges="orientation|keyboardHidden" android:theme="@style/fullscreen">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity> 
+		
+        <activity android:name="com.android.main.MainActivity" android:configChanges="orientation|keyboardHidden" android:theme="@style/fullscreen"></activity>
+        <activity android:name="com.android.main.TabHomeActivity"></activity>
+        <activity android:name="com.android.main.TabLocalActivity"></activity>
+        <activity android:name="com.android.main.TabMyCenterActivity"></activity>
+		
+		<activity android:name="com.android.picview.PicViewer"
+			android:configChanges="orientation|keyboardHidden" />
+		<activity android:name="com.android.picview.LocalPicViewer"
+			android:configChanges="orientation|keyboardHidden" />
+		<activity android:name="com.android.main.AlbumList" android:theme="@style/fullscreen"
+			android:configChanges="orientation|keyboardHidden" />
+		<service android:name="com.android.update.DownloadService" />
+
+		
+		
+		<!-- 万普支付 start -->
+		<activity
+            android:name="com.android.beauty360.point.PayMainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+		
+		<activity android:name="com.wanpu.pay.PayView"
+			android:configChanges="keyboardHidden|orientation" />
+        
+        <!-- 以下Activity为银行卡支付使用 -->
+		<activity
+            android:name="com.payeco.android.plugin.PayecoPluginLoadingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoOrderDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoPayResultActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoWebViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoRiskControlActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+		<!-- 万普支付 end -->
+		
+		
+<!-- 		定义积分墙开始 -->	
+<!--  baidu offer start -->  
+<!--         <meta-data
+            android:name="BaiduMobAd_APP_ID"
+            android:value="d58e49b3" />
+        <meta-data
+            android:name="BaiduMobAd_APP_SEC"
+            android:value="d58e49b3" /> -->
+        <activity
+            android:name="com.baidu.mobads.appoffers.OffersActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+        <!--  baidu offer end --> 
+        
+		<!--  waps offer start -->        
+        <activity android:name="cn.waps.OffersWebView" android:configChanges="keyboardHidden|orientation" />
+        <meta-data android:name="APP_ID" android:value="153fdf364dc7acda462e8080ed099589" />
+        <meta-data android:name="APP_PID" android:value="WAPS" />
+	<!--  waps offer end-->   
+	
+	  <!-- dianjin start -->
+<!--         <activity
+            android:name="com.bodong.dianjinweb.downloadmanager.DianJinDownloadManager"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bodong.dianjinweb.web.DianjinWebAcitivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <service android:name="com.bodong.dianjinweb.service.DianJinService" >
+        </service> -->
+        <!-- dianjin end -->     
+        <!-- dianjin start -->
+<!--         <activity
+            android:name="com.bodong.dianjinweb.downloadmanager.DianJinDownloadManager"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity
+            android:name="com.bodong.dianjinweb.web.DianjinWebAcitivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+        <service android:name="com.bodong.dianjinweb.service.DianJinService" >
+        </service> -->
+        <!-- dianjin end -->
+<!-- 	定义积分墙结束 -->		
+		
+ 
+ 		<!-- 声明Mogo全插屏所用的Activity -->
+         <activity 
+            android:name="com.adsmogo.adview.AdsMogoInterstitialActivity"
+            android:screenOrientation="landscape">
+         </activity>
+        <!-- 声明Mogo的Activity -->
+        <activity
+            android:name="com.adsmogo.adview.AdsMogoWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.adsmogo.splash.AdsMogoSplashWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.adsmogo.mriad.view.AdsMogoActionHandler"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <!-- 注册Service，应用下载所需 -->
+        <service
+            android:name="com.adsmogo.controller.service.UpdateService"
+            android:exported="true"
+            android:process=":remote" />
+        <!-- 注册Service，应用被安装所用 -->
+        <service
+            android:name="com.adsmogo.controller.service.CountService"
+            android:exported="true"
+            android:process=":remote" />
+ 
+        
+       <!--  注册Service，自主广告与交换广告的应用下载功能所需 -->
+		<service android:exported="true" android:name="com.admogo.UpdateService"
+			android:process=":remote" />
+ 		<meta-data android:name="ADMOGO_KEY" android:value="1080a45a6bbf4229806da0be43ccb561" />
+       
+        <!-- 声明多盟的Activity -->
+        <activity
+            android:name="cn.domob.android.ads.DomobActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 声明AdMob的Activity -->
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <!-- 声明AirAD的Activity -->
+        <activity
+            android:name="com.mt.airad.MultiAD"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- 添加百度应用详情Activity -->
+        <meta-data
+            android:name="BaiduMobAd_DEBUG_TOKEN"
+            android:value="baidu" />
+
+        <activity
+            android:name="com.baidu.mobads.AppActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" />
+         		
+        
+		<!-- 添加随踪AdActivity -->
+		<activity android:configChanges="keyboard|keyboardHidden|orientation"
+			android:name="com.suizong.mobplate.ads.AdActivity" />
+
+ 		
+	</application>
+ 	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+	<!-- AdView SDK mandatory or important permissions -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<!-- AdsMOGO sdk -->
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<!-- 在SDCard中创建与删除文件权限 for auto update -->
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<!--  for 万普 -->	
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	
+	    <!-- 点金显示悬浮控件新增权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+</manifest>

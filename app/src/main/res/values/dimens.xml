@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_tab_padding_drawable">2.0dip</dimen>
+	<dimen name="bottom_tab_padding_up">5.0dip</dimen>
+	<dimen name="bottom_tab_font_size">10.0dip</dimen>
+    <!-- 上、下工具栏高矮 -->
+    <dimen name="toolbarHeight">48dip</dimen>
+    <dimen name="toolbarTextSize">20sp</dimen>
+    <dimen name="bottomTabTextSize">14sp</dimen>
+    
+	<!-- 书架、专辑尺寸控制 ======start-->
+    <dimen name="shelfRowHeight">137dip</dimen>
+    <!-- 两边给书架边留出的距离 -->
+    <dimen name="shelfPadding">18dip</dimen>
+    <!-- 书与书之间的距离 -->
+    <dimen name="albumBetween">12dip</dimen>
+    
+    <dimen name="bookPadingTop">19dip</dimen>
+    <dimen name="bookPadingBottom">13dip</dimen>
+    
+    <dimen name="albumWidth">80dip</dimen>
+    <dimen name="albumHeight">105dip</dimen>
+    <dimen name="coverHeight">100dip</dimen>
+    
+    <!-- 专辑下载时下边进度条的高度 -->
+    <dimen name="downloadProgressHeight">8dip</dimen>
+    <dimen name="downloadProgressWidth">72dip</dimen>
+    <dimen name="downloadProgressMarginBottom">5dip</dimen>
+    <!-- 书架、专辑尺寸控制 ======end-->
+    
+    <dimen name = "imageToolbarTitleHeight">32dip</dimen>
+    <dimen name = "imageToolbarOperateHeight">48dip</dimen>
+    
+    <dimen name = "settingItemPadding">10dip</dimen>
+    <dimen name = "settingItemHeight">48dip</dimen>
+    <dimen name = "settingFontSize">18sp</dimen>
+    
+    <dimen name="updatebar_height">62.0dip</dimen>
+    <dimen name="updatebar_content_height">60.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    
+</resources>

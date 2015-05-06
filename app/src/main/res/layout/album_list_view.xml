@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adsmogo="http://www.adsmogo.com"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:id="@+id/mogoAdBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <!-- Xml方式添加AdsMogoLayout 请务必添加命名空间 xmlns:adsmogo="http://www.adsmogo.com" -->
+        <!-- adsmogo:appid= (设置 AppID) -->
+        <!-- adsmogo:express_mode= (快速模式开关) 缺省状态为true -->
+
+        <com.adsmogo.adview.AdsMogoLayout
+            android:id="@+id/adsMogoView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            adsmogo:appid="1080a45a6bbf4229806da0be43ccb561"
+            adsmogo:express_mode="false" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:listSelector="@color/transparent"  
+        android:layout_above="@id/mogoAdBanner" />
+     
+</RelativeLayout>

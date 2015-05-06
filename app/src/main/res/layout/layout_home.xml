@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adsmogo="http://www.adsmogo.com"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listitem_bk"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="#CC6600" >
+
+<!--         <ImageView
+            android:id="@+id/img_netease_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/netease_top" /> -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/online_album_text"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+<!--         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/duoyun" /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="35dip"
+        android:background="@android:color/white" >
+
+        <LinearLayout
+            android:id="@+id/main_cata_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/cata_tab01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black"
+                    android:text="" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cata_tab02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black"
+                    android:text="" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cata_tab03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black"
+                    android:text="" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/cata_tab04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingLeft="4dip"
+                android:paddingRight="4dip" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black"
+                    android:text="" />
+            </RelativeLayout>
+
+            <!--
+                 <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_science"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/title_news_category_science" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/tv_title_bar_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/title_news_category_more" />
+            </RelativeLayout>
+            -->
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/mogoAdBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <!-- Xml方式添加AdsMogoLayout 请务必添加命名空间 xmlns:adsmogo="http://www.adsmogo.com" -->
+            <!-- adsmogo:appid= (设置 AppID) -->
+            <!-- adsmogo:express_mode= (快速模式开关) 缺省状态为true -->
+
+            <com.adsmogo.adview.AdsMogoLayout
+                android:id="@+id/adsMogoView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                adsmogo:appid="1080a45a6bbf4229806da0be43ccb561"
+                adsmogo:express_mode="false" />
+        </LinearLayout>
+
+        <com.android.main.PullDownListView
+        android:id="@+id/sreach_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/mogoAdBanner" >
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.0"
+            android:divider="@null"
+            android:drawSelectorOnTop="false"
+            android:fadingEdgeLength="0.0sp" />
+    	</com.android.main.PullDownListView>
+        
+<!--         <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/mogoAdBanner" /> -->
+    </RelativeLayout>
+
+</LinearLayout>

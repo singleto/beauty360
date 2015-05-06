@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+	Android:orientation="vertical" Android:layout_width="fill_parent"
+	Android:layout_height="fill_parent">
+	<LinearLayout Android:layout_width="fill_parent"
+		Android:layout_gravity="center_horizontal" Android:layout_height="wrap_content"
+		Android:layout_alignParentBottom="true" Android:background="#00000000"
+		Android:layout_centerHorizontal="true">
+		<TableLayout Android:layout_width="fill_parent"
+			Android:background="#00000000" Android:layout_height="fill_parent"
+			Android:stretchColumns="*">
+			<TableRow Android:layout_gravity="center_horizontal">
+				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_save"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_store_image"
+						Android:src="@drawable/save" Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_save"
+						Android:text="下载" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_store_image" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout>
+				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_last_pic"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_last_pic" Android:src="@drawable/last"
+						Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_last"
+						Android:text="@string/last_pic" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_last_pic" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout>
+				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_next_pic"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_next_pic" Android:src="@drawable/next"
+						Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_next"
+						Android:text="@string/next_pic" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_next_pic" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout>
+				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_setup_bitmap"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_setup_bitmap"
+						Android:src="@drawable/setup_bitmap" Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_setup_bitmap"
+						Android:text="@string/set_bitmap" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_setup_bitmap" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout>
+<!-- 				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_app_recommend"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_app_recommend" Android:src="@drawable/app_recommend"
+						Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_app_recommend"
+						Android:text="精品应用" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_app_recommend" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout>
+				<RelativeLayout Android:layout_height="wrap_content" Android:id="@+id/net_rela_comments"
+					Android:layout_width="fill_parent" Android:layout_gravity="center">
+					<ImageButton Android:id="@+id/bt_comments" Android:src="@drawable/comments"
+						Android:layout_width="wrap_content"
+						Android:layout_centerHorizontal="true" Android:layout_height="wrap_content"
+						Android:background="#00000000" Android:padding="3dip" />
+					<TextView Android:layout_width="wrap_content" Android:id="@+id/net_tx_comments"
+						Android:text="意见反馈" Android:layout_height="wrap_content"
+						Android:layout_below="@+id/bt_comments" Android:textColor="@color/pop_win_icon"
+						Android:layout_centerHorizontal="true">
+					</TextView>
+				</RelativeLayout> -->
+			</TableRow>
+		</TableLayout>
+	</LinearLayout>
+</LinearLayout>

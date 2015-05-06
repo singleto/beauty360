@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:adsmogo="http://www.adsmogo.com"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listitem_bk"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="top"
+        android:background="#CC6600"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+<!--         <ImageView
+            android:id="@+id/img_netease_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/netease_top" /> -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"            
+            android:text="@string/local_album"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+ 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/mogoAdBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <!-- Xml方式添加AdsMogoLayout 请务必添加命名空间 xmlns:adsmogo="http://www.adsmogo.com" -->
+            <!-- adsmogo:appid= (设置 AppID) -->
+            <!-- adsmogo:express_mode= (快速模式开关) 缺省状态为true -->
+
+            <com.adsmogo.adview.AdsMogoLayout
+                android:id="@+id/adsMogoView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                adsmogo:appid="1080a45a6bbf4229806da0be43ccb561"
+                adsmogo:express_mode="false" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_view_local"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/mogoAdBanner" />
+    </RelativeLayout>
+</LinearLayout>

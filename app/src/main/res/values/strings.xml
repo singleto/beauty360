@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">360美女</string>
+    <string name="update_dlg_title">360美女更新信息</string>
+    <string name="update_start_download">开始下载:</string>
+    <string name="update_downloading">开始下载:</string>
+    <string name="update_download_done">下载完毕</string>
+    <string name="update_file_download_done">文件已下载完毕</string>
+    <string name="connect_serv_fail_tip">服务器连接失败，请稍后再试！</string>
+    <string name="update">更新</string>
+    <string name="no_update_now">暂不更新</string>
+    <string name="version_name">360美女V%1$s版</string>
+    <string name="lack_points_tip">积分不足提示</string>
+    <string name="get_points_tips">尊敬的图友，您的积分已不足，欢迎下载精品应用免费获取积分。\n积分规则：\n1、初次使用，系统赠送一定量的积分。\n2、每浏览一张图片消耗一个积分。\n3、下载安装精品应用可免费获取大量的积分。</string>
+    <string name="downloaded_tip">图片已下载到本地，欢迎继续欣赏!</string>
+    <string name="downloading_tip">正在下载，请稍候</string>
+    <string name="conn_timeout">链接服务器超时，请您稍后再试，感谢您使用360美女！</string>
+    <string name="no_network_tip">没有可用的网络，请检查网络连接或者稍后再试！</string>
+    <string name="wifi_suggest_tip">建议您使用WIFI以减少流量！</string>
+    <string name="lack_of_space">存储空间不足！</string>
+    <!-- TabNewsActivity -->
+    <string name="download">下载</string>
+    <string name="continue_download">继续</string>
+    <string name="down_over">已完成</string>
+    <string name="pause_download">暂停</string>
+    <string name="downloaded">已下载%1$d张</string>
+    <string name="downloading">正在下载第%1$d张</string>
+    <string name="next_pic">下一张</string>
+    <string name="last_pic">上一张</string>
+    <string name="set_bitmap">设置壁纸</string>
+    <string name="album_icon">专辑图标</string>
+    <string name="initializing">正在初始化，请稍候.....</string>
+    <string name="pic_storing">正在保存图片，请稍候.....</string>
+    <string name="no_pic_tip">"此专辑还没有下载图片，请到在线专辑中下载！"</string>
+    <string name="bt_ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="kindly_reminder">温馨提示</string>
+    <string name="album_amount">专辑数量</string>
+    <string name="explore_pic">浏览</string>
+    <string name="praise_num">好评</string>
+    <string name="pic_amount">图片数量</string>
+    <string name="get_points">获取积分</string>
+    <string name="del_cache">清空缓存</string>
+    <string name="suggestion">意见建议</string>
+    <string name="del_cache_res">"缓存已清空，请您继欣赏！</string>
+    <string name="point_amount">总积分:</string>
+    <string name="get_point_by_down_app">免费获取积分（应用下载）</string>
+    <string name="get_point_by_pay">支付获取积分（200积分/元）</string>
+    <string name="show_ad">展示广告</string>
+
+    <!--
+         <string name="title_news_category_science">科技</string>
+    <string name="title_news_category_more">更多</string>
+    -->
+    <string name="setting">设置</string>
+    <string name="setting_index">首页</string>
+    <string name="image_quality">图片质量</string>
+    <string name="image_move_v">图片拖动速度</string>
+    <string name="image_toolbar_display">默认显示图片工具栏</string>
+    <string name="clear_cache">清空缓存</string>
+    <string name="update_check">检查更新</string>
+    <string name="feedback">意见反馈</string>
+    <string name="about">关于我们</string>
+    <string name="help">帮助</string>
+    <string name="help_content">1、为了避免产生高额流量费，建议您使用wifi网络。\b\n2、在线每浏览一张图片消耗一个积分，注：浏览下载后的图片不消耗积分。\b\n3、批量下载图片所需积分跟所下图片数量相同。\b\n4、您可以通过下载安装精品应用或者支付方式获取大量积分。\b\n5、下载的图片存放到SD卡360beauty\\download目录下。</string>
+    <string name="declare">声明</string>
+    <string name="declare_content">&#160;&#160;360美女图片均为网络图片，如果有发现违法，或侵犯了您的权益的内容，请迅速联系QQ：2930260452进行删除。感谢各位图友的支持和帮助</string>
+    <string name="online_album_text">在线专辑</string>
+    <string name="local_album">本地专辑</string>
+    <string name="mycenter_text">个人中心</string>
+    <string name="point">积分</string>
+    <string name="pay_sdk_ver">SDK版本：</string>
+    <string name="submit_order">提交</string>
+    <string name="order_detail">支付详情</string>
+    <string name="goods_name">商品名称：</string>
+    <string name="pay_amount">支付金额：</string>
+    <string name="goods_desc">商品数量：</string>
+    <string name="pay_order">支付订单</string>
+    <string name="yuan">元</string>
+    <string name="buy">购买</string>
+    <string name="pay_less_than_0_tip">输入金额不能小于零！</string>
+    <string name="pay_less_than_1_tip">输入金额必须为1元的整数倍！</string>
+    <string name="input_blank_tip">请输入金额！</string>
+    <string name="best_app_rec_01">精品应用一（免费下载）</string>
+    <string name="best_app_rec_02">精品应用二（免费下载）</string>
+    <string name="best_app_rec_03">精品应用三（免费下载）</string>
+    <string name="get_point_by_tuangou">团购送积分</string>
+    <string name="get_by_pay">支付获取</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="drop_dowm">下拉刷新</string>
+    <string name="release_update">松开刷新</string>
+    <string name="loading">正在加载&#8230;&#8230;</string>
+    <string name="seen_more">更多>>></string>
+
+</resources>

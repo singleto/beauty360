@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<FrameLayout android:id="@+id/net_frameLayout"
+		android:background="@color/cream" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<com.android.picview.MyImageView
+			android:id="@+id/myImageView" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:scaleType="centerInside"
+			android:background="@color/cream" android:layout_gravity="center">
+		</com.android.picview.MyImageView>
+	</FrameLayout>
+</LinearLayout>

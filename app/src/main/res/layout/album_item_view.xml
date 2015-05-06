@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/album_icon"
+        android:layout_width="65dip"
+        android:layout_height="70dip"
+        android:layout_margin="3dip"
+        android:contentDescription="@string/album_icon"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_icon" />
+
+    <LinearLayout
+        android:id="@+id/album_desc"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"            
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="left" 
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" 
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/album_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginRight="0dip"
+        android:layout_gravity="right"
+        >
+        
+        <Button
+            android:id="@+id/album_download_bt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="right|center_vertical"
+      		android:focusable="false"
+            android:text="@string/download" />
+
+        <TextView
+            android:id="@+id/album_download_progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="right|center_vertical"
+            android:text="@string/downloaded" />
+	</LinearLayout>
+</LinearLayout>

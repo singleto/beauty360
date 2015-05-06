@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\Baidu_MobAds_SDK_Wall.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a23f36f8683d291d8aa51962bdaad8ff841309eb">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\Baidu_MobAds_SDK_Wall-77d0612482653ad455b03bd6b4d44458c728c280.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\GoogleAdMobAdsSdk-6.3.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e76d56d91a7f56fe865ed2e98b186c85decbfb6a">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.3.1-f0c6bd8bf1e932c7bc70d217830fae521ba36123.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\Baidu_MobAds_SDK_Agg_3.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e0d09b2279b683483d05d7225d1379e8f4752861">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\Baidu_MobAds_SDK_Agg_3.4-87c90df616566fc2b292203cce969d03d680218b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\WanpuPay_2.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="fe5f784dacc01d95206a961fe3509bb6806d3bff">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\WanpuPay_2.2.1-2eda7a4dc5c61a999e1eadf327af8e76dc4c2b06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\TenpayServiceSDK_V5.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5329605c8b48dcb9ddcf48067b292b84b5d3f979">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\TenpayServiceSDK_V5.0-60657f75841f26336d7b796acc5ed63fdcc086f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\payecopluginjar.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ad0c3afa03ff3c71fc84d2a40a176ff09b7c10eb">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\payecopluginjar-d1729880b2f58d569e6e05ca89d2c19ab9cb8326.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\AdsMOGO_Android_SDK_1.3.9.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9e9fb68ad10de2a52fcb97ac92732712c7ab11eb">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\AdsMOGO_Android_SDK_1.3.9-c244db3f85c013c1e0c553f437a5013625671142.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\domob_android_sdk_4.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f3b96828b75fa80e8d331b230683c639759f0c8d">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\domob_android_sdk_4.0.0-aa39cef5d550b1f04055aa7f76fe683054e4df10.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\AppOffer_1.8.8.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81afd66d110f09849f176527b2f6ed4439db56fe">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\AppOffer_1.8.8-532c3ba3c12ebd7dd911d473bc27e4fea89e4a84.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\libs\alipay_msp.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cea297259e69635a6448449a6852f4c6161a07c9">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\beauty360\app\build\intermediates\pre-dexed\debug\alipay_msp-a9ada2bd125aeb8a7725ecd60c52809412c3d7d5.jar" />
+    </item>
+
+</items>
